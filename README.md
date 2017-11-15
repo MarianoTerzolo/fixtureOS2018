@@ -30,12 +30,33 @@ Cada usuario tendrá un nombre de usuario (que puede ser un email para simplific
 
 El sistema puede enviar notificaciones a los participantes a medida que el administrador cargue los resultados.
 
-Reporte Ranking: es el reporte principal, en donde podrá verse el ranking de los participantes.
+Reporte Ranking: es el reporte principal, en donde podrá verse el ranking de los participantes según puntos.
 
-Crear una clase grupo, id, nombre
+Clases:
 
-Crear una clase equipo, propiedades: id, nombre, grupo del tipo grupo, bandera del tipo imagen
+grupo - propiedades: id, nombre
 
-Crear una clase "partido" que tendra las propiedades "equipo A" del tipo equipo, "equipo B" del tipo equipo, "goles A", "goles B"
+equipo - propiedades: id, nombre, grupo del tipo grupo, bandera del tipo imagen
+
+partido - propiedades: id, equipoA del tipo equipo, equipoB del tipo equipo, golesA, golesB, fase del tipo enum ronda
+
+Enumeración de rondas: primera, octavos, cuartos, semifinales, tercercuartopuesto, final
+
+Tablas:
+
+Pantallas:
+
+Pantalla principal del Participante:
+
+Luego del login, el participante entra a una pantalla donde se ve su nombre, posición en el ranking, cantidad de dinero recaudado, cantidad de dinero de cada premio, si pagó o o no (sino, cuanto debe), botón de acceso al ranking completo, botón de acceso a su fixture completo, el cual solo se prodra editar si no venció la fecha tope para completar, y botón de acceso a los resultados reales como se vienen dando.
+
+Foro de participación, donde se podrán dejar mensajes para que vean todos los usuarios (esto va a ser muy popular porque van a aparecer un gran número de cargadas). 
+
+Pantalla del administrador:
+
+Funciones:<br/>
+Carga de resultados <br/>
+Carga de pagos <br/>
+Consulta de deudores <br/>
 
 
